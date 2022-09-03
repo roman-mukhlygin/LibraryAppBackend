@@ -1,11 +1,11 @@
-﻿using Library.Domain;
-using Library.Dto;
-using Library.Infrastructure.Data.AuthorModel;
-using Library.Infrastructure.Data.BookModel;
-using Library.Infrastructure.Data.GenreModel;
-using Library.Infrastructure.UoW;
+﻿using LibraryAppBackend.Domain;
+using LibraryAppBackend.Dto;
+using LibraryAppBackend.Infrastructure.Data.AuthorModel;
+using LibraryAppBackend.Infrastructure.Data.BookModel;
+using LibraryAppBackend.Infrastructure.Data.GenreModel;
+using LibraryAppBackend.Infrastructure.UoW;
 
-namespace Library.Services
+namespace LibraryAppBackend.Services
 {
     public class BookService : IBookService
     {

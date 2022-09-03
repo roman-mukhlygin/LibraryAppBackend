@@ -1,6 +1,6 @@
-﻿using Library.Domain;
+﻿using LibraryAppBackend.Domain;
 
-namespace Library.Infrastructure.Data.AuthorModel
+namespace LibraryAppBackend.Infrastructure.Data.AuthorModel
 {
     public class AuthorRepository : IAuthorRepository
     {

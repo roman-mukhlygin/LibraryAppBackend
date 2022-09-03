@@ -1,4 +1,4 @@
-﻿namespace Library.Domain
+﻿namespace LibraryAppBackend.Domain
 {
     public class Author
     {

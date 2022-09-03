@@ -1,7 +1,7 @@
-﻿using Library.Domain;
+﻿using LibraryAppBackend.Domain;
 using Microsoft.EntityFrameworkCore;
 
-namespace Library.Infrastructure.Data.BookModel
+namespace LibraryAppBackend.Infrastructure.Data.BookModel
 {
     public class BookRepository : IBookRepository
     {

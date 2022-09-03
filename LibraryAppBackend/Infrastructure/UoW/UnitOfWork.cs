@@ -1,6 +1,6 @@
-﻿using Library.Infrastructure.Data;
+﻿using LibraryAppBackend.Infrastructure.Data;
 
-namespace Library.Infrastructure.UoW
+namespace LibraryAppBackend.Infrastructure.UoW
 {
     public class UnitOfWork : IUnitOfWork
     {

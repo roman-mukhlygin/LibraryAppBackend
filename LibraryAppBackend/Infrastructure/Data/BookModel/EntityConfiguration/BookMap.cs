@@ -1,8 +1,8 @@
-﻿using Library.Domain;
+﻿using LibraryAppBackend.Domain;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace Library.Infrastructure.Data.BookModel.EntityConfiguration
+namespace LibraryAppBackend.Infrastructure.Data.BookModel.EntityConfiguration
 {
     public class BookMap : IEntityTypeConfiguration<Book>
     {

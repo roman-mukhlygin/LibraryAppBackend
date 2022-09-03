@@ -1,8 +1,8 @@
-﻿using Library.Domain;
+﻿using LibraryAppBackend.Domain;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace Library.Infrastructure.Data.AuthorModel.EntityConfiguration
+namespace LibraryAppBackend.Infrastructure.Data.AuthorModel.EntityConfiguration
 {
     public class AuthorMap : IEntityTypeConfiguration<Author>
     {

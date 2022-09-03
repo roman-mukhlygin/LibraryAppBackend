@@ -1,4 +1,4 @@
-﻿namespace Library.Dto
+﻿namespace LibraryAppBackend.Dto
 {
     public class BookDto
     {

@@ -1,6 +1,6 @@
-﻿using Library.Domain;
+﻿using LibraryAppBackend.Domain;
 
-namespace Library.Dto
+namespace LibraryAppBackend.Dto
 {
     public static class BookDtoExtensions
     {

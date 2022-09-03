@@ -1,8 +1,8 @@
-﻿using Library.Domain;
+﻿using LibraryAppBackend.Domain;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace Library.Infrastructure.Data.GenreModel.EntityConfiguration
+namespace LibraryAppBackend.Infrastructure.Data.GenreModel.EntityConfiguration
 {
     public class GenreMap : IEntityTypeConfiguration<Genre>
     {

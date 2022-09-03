@@ -1,7 +1,7 @@
-﻿using Library.Domain;
-using Library.Dto;
+﻿using LibraryAppBackend.Domain;
+using LibraryAppBackend.Dto;
 
-namespace Library.Services
+namespace LibraryAppBackend.Services
 {
     public interface IBookService
     {

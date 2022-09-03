@@ -1,6 +1,6 @@
-﻿using Library.Domain;
+﻿using LibraryAppBackend.Domain;
 
-namespace Library.Infrastructure.Data.BookModel
+namespace LibraryAppBackend.Infrastructure.Data.BookModel
 {
     public interface IBookRepository
     {

@@ -1,10 +1,10 @@
-﻿using Library.Domain;
-using Library.Infrastructure.Data.AuthorModel.EntityConfiguration;
-using Library.Infrastructure.Data.BookModel.EntityConfiguration;
-using Library.Infrastructure.Data.GenreModel.EntityConfiguration;
+﻿using LibraryAppBackend.Domain;
+using LibraryAppBackend.Infrastructure.Data.AuthorModel.EntityConfiguration;
+using LibraryAppBackend.Infrastructure.Data.BookModel.EntityConfiguration;
+using LibraryAppBackend.Infrastructure.Data.GenreModel.EntityConfiguration;
 using Microsoft.EntityFrameworkCore;
 
-namespace Library.Infrastructure.Data
+namespace LibraryAppBackend.Infrastructure.Data
 {
     public class LibraryContext : DbContext
     {

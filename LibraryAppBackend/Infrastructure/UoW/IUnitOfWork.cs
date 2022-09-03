@@ -1,4 +1,4 @@
-﻿namespace Library.Infrastructure.UoW
+﻿namespace LibraryAppBackend.Infrastructure.UoW
 {
     public interface IUnitOfWork
     {

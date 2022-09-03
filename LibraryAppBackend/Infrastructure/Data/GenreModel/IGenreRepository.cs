@@ -1,6 +1,6 @@
-﻿using Library.Domain;
+﻿using LibraryAppBackend.Domain;
 
-namespace Library.Infrastructure.Data.GenreModel
+namespace LibraryAppBackend.Infrastructure.Data.GenreModel
 {
     public interface IGenreRepository
     {
