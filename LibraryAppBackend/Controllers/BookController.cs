@@ -1,8 +1,5 @@
 ﻿using LibraryAppBackend.Dto;
-using LibraryAppBackend.Infrastructure.UoW;
 using LibraryAppBackend.Services;
-using LibraryAppBackend.Services;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace LibraryAppBackend.Controllers
