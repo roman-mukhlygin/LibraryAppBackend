@@ -5,5 +5,6 @@ namespace LibraryAppBackend.Infrastructure.Data.GenreModel
     public interface IGenreRepository
     {
         Genre GetByName( string name );
+        List<Genre> GetAll();
     }
 }
