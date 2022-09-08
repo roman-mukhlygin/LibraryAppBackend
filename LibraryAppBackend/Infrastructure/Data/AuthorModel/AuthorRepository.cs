@@ -1,4 +1,5 @@
 ﻿using LibraryAppBackend.Domain;
+using Microsoft.EntityFrameworkCore;
 
 namespace LibraryAppBackend.Infrastructure.Data.AuthorModel
 {
@@ -9,6 +10,12 @@ namespace LibraryAppBackend.Infrastructure.Data.AuthorModel
         {
             _dbContext = dbContext;
         }
+
+        public List<Author> GetAll()
+        {
+            return _dbContext.Author.Include( author => author.Books ).ToList();
+        }
+
         public Author GetByName( string name )
         {
             return _dbContext.Author.Where( x => x.Name == name ).Single();
